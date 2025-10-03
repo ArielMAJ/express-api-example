@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  console.log("Root endpoint called");
+  console.log("Root endpoint called!");
   res.send({ message: "Hello world!!" });
 });
 
